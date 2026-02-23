@@ -1,3 +1,16 @@
+/****************************************************************************************
+ * crystal.c
+ *
+ * Generation logic for reciprocal space from chosen crystal structure 
+ *  - Uses lattice vectors to calculate reciprocal vector basis
+ *  - From plane normal and reciprocal vectors, gets "2D plane" array of lattice points
+ *  - Uses structure factor to calculate viewable reciprocal points
+ * 
+ *      - Contains struct-related methods to resize/destroy dynamically allocated arrays
+ *
+ ****************************************************************************************/
+
+
 #include "crystal.h"
 
 #include <stdlib.h>
@@ -99,6 +112,7 @@ void crystal_free(Crystal *crystal) {
 }
 
 
+// Initialize Crystal struct from lattice parameters
 Crystal* crystal_init(double a, double b, double c, double alpha, double beta, double gamma) {
     Crystal *crystal = calloc(1, sizeof(*crystal));
     if (!crystal) { return NULL; }
