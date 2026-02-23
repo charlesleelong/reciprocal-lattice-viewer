@@ -1,5 +1,6 @@
 # reciprocal-lattice-viewer
 Interactive visualization tool for reciprocal lattices of user-selected crystal systems and Bravais lattices, written in C. 
+<br>
 Renders 2D reciprocal-space lattice planes perpendicular to a specified zone axis.
 Displayed points represent crystal plane reflections that satisfy the zone law for the selected viewing direction (through varying H,K,L)
 Limiting sphere radius is based on Cu K-alpha 1 incoming radiation.
