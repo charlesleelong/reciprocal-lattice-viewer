@@ -434,7 +434,7 @@ void app_draw(AppState *s) {
     // DRAWING 
     BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawFPS(100, 100);
+        //DrawFPS(100, 100);
 
         // PLOTTING
         BeginMode2D(s->camera);
