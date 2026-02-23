@@ -1,3 +1,14 @@
+/****************************************************************************************
+ * app.c
+ * 
+ * GUI and visualization using raylib to display data from app.c
+ *      - Transforms reciprocal space points to pixel coordinates of application window 
+ *      - Input validation/rollback of unallowed values for crystal system user choices 
+ *      - Handles camera movement, limiting sphere for Cu Kalpha 1 radiation
+ *      - Renders application and user interface
+ * 
+ ****************************************************************************************/
+
 #include "app.h"          
 
 #include <stdio.h>
@@ -264,20 +275,6 @@ void overdraw_parameters(int posX, int posY, double guiScale, int val) {
 
     return;
 }
-
-
-
-// app_init: window + default state + create crystal
-
-// app_handle_input: camera drag, zoom, etc.
-
-// app_update_model_if_needed: your needsUpdate block (zone clamp, couple_fields, validate, generate)
-
-// app_draw_world: BeginMode2D + plot_points
-
-// app_draw_ui: all Gui* calls + overlays
-
-// app_on_resize: recompute guiScale, button dims, camera offset
 
 
 // Initialize the application state (UI, window, necessary structs)
