@@ -9,10 +9,11 @@ Limiting sphere radius is based on Cu K-alpha 1 incoming radiation.
 ## Controls
 - **a, b, c** — lattice constants  
 - **A, B, C** — lattice angles (α, β, γ)  
-- **H, K, L** — zone axis (real-space viewing direction)  
+- **H, K, L** — zone axis 
 - **Mouse drag** — translate view  
 - **Mouse scroll** — zoom in/out
 
+## Examples
 <p align="center">
   <img src="https://github.com/user-attachments/assets/162fb9bf-e419-4d22-b1ed-90f7dc2cf024" width="800">
   <br>
