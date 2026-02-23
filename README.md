@@ -7,10 +7,10 @@ Limiting sphere radius is based on Cu K-alpha 1 incoming radiation.
 - Uses raylib (https://github.com/raysan5/raylib) and raygui (https://github.com/raysan5/raygui) for graphical implementation.
 
 CONTROLS:
-    a,b,c represent lattice constants, 
-    A,B,C represent lattice angles, 
-    H,K,L represent view perpendicular to that direction (zone axis).
-    Camera translation/zoom through mouse dragging and scrolling.
+    - a,b,c represent lattice constants, 
+    - A,B,C represent lattice angles, 
+    - H,K,L represent view perpendicular to that direction (zone axis).
+    - Camera translation/zoom through mouse dragging and scrolling.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/162fb9bf-e419-4d22-b1ed-90f7dc2cf024" width="800">
